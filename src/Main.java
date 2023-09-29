@@ -2,16 +2,29 @@
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+        byte b = 10;
+        short s = 100;
+        int i = 1000;
+        long l = 10000;
+        float f = 2.5f;
+        double d = 3.7;
+        boolean bo = true;
+        char ch = '\uFFFF';
+        System.out.println(b + " " + s + " " + i + " " + l + " " + f + " " + d + " " + bo + " " + ch);
 
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
-        }
+        int sum = s + i;
+        System.out.println(sum);
+
+        int sun2 = b + s;
+        System.out.println(sun2);
+        vvv();
     }
+    public static void vvv(){
+        int z = 35;
+        long w = 55;
+        long sum1 = z + w;
+        System.out.println(sum1);
+    }
+
 }
