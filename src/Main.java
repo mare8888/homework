@@ -22,7 +22,7 @@ public class Main {
     }
     public static void vvv(){
         int z = 35;
-        long w = 55;
+        long w = 65;
         long sum1 = z + w;
         System.out.println(sum1);
     }
