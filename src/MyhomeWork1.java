@@ -3,7 +3,7 @@ public class MyhomeWork1 {
         byte b = 10;
         short s = 100;
         int i = 1000;
-        long l = 10000;
+        long l = 11000;
         float f = 2.5f;
         double d = 3.7;
         boolean bo = true;
@@ -19,7 +19,7 @@ public class MyhomeWork1 {
     }
     public static void vvv(){
         int z = 35;
-        long w = 65;
+        long w = 85;
         long sum1 = z + w;
         System.out.println(sum1);
     }
