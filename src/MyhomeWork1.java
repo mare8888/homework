@@ -1,7 +1,7 @@
 public class MyhomeWork1 {
     public static void main(String[] args) {
         byte b = 10;
-        short s = 100;
+        short s = 110;
         int i = 1100;
         long l = 11000;
         float f = 2.5f;
