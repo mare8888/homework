@@ -7,6 +7,7 @@ public class home4 {
     public static void main(String[] args) {
 
         /*  ЗАДАНИЕ 1 для запуска раскоментировать */
+
 //            Scanner input = new Scanner(System.in);
 //            System.out.println("Enter array length: ");
 //                int s = input.nextInt();
@@ -21,6 +22,7 @@ public class home4 {
 
 
             /*   ЗАДАНИЕ 2 для запуска раскоментировать */
+
 //             for (int j = 9; j > 0; j--){
 //               for (int i = 0; i < 10; i++){
 //                   System.out.println(i + " * " + j + " = " + i*j);
@@ -31,6 +33,7 @@ public class home4 {
 
 
         /*     ЗАДАНИЕ 3 для запуска раскоментировать */
+
 //           Scanner scanner = new Scanner(System.in);
 //               System.out.println("Введите число: " );
 //               int a = scanner.nextInt();
@@ -42,6 +45,7 @@ public class home4 {
 
 
          /*   ЗАДАНИЕ 3.1 для запуска раскоментировать */
+
 //           Scanner scanner = new Scanner(System.in);
 //
 //           do {
@@ -49,7 +53,8 @@ public class home4 {
 //                } while(scanner.nextInt() == 5);
 
 
-        /* Задание 4*/
+                   /* Задание 4*/
+
 //              int[][] array = new int[4][8];
 //
 //              for (int i = 0; i < 4; i++) {
