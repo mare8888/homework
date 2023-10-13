@@ -18,7 +18,7 @@ public class homeWork5 {
 
         uefi();
         }
-
+        // Задание 1
         public static int getSum ( int a){
             return a;
         }
@@ -43,7 +43,17 @@ public class homeWork5 {
         return a ;
         }
 
-    // Задание 3
+        // Задание 2
+
+        public static char[] uefi() {
+        char[] arr = {'\u2461', '\u2463', '\u2468'};
+        for (char arran : arr){
+            System.out.println(arran);
+        }
+        return arr;
+        }
+
+          // Задание 3
 
         public static int cube(int a){
         return a*a*a;
@@ -64,18 +74,6 @@ public class homeWork5 {
         public static int calc( int a, int b, int c, int d, int e){
         return a-b-c-d-e;
         }
-//
-//
-//
-//
-        public static char[] uefi() {
-            char[] arr = {'\u2461', '\u2463', '\u2468'};
-            for (char arran : arr){
-                System.out.println(arran);
-            }
-            return arr;
-        }
-
     }
 
 
