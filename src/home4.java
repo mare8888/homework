@@ -108,5 +108,73 @@ public class home4 {
 //    System.out.println("Отсортированный массив " + Arrays.toString(mass));
 //
 //
+//        int [] hil = new int[6];
+//            for (int i = 0; i <hil.length; i++){
+//                hil[i] = (int) (Math.random()*6);
+//            }
+//        System.out.println("Не отсортированный массив " + Arrays.toString(hil));
+//        int temp;
+//        boolean per = false;
+//        System.out.println(Arrays.toString(hil));
+//        while (!per){
+//            per = true;
+//            for (int i=0; i < hil.length-1; i++){
+//                if(hil[i]>hil[i+1]){
+//                    temp = hil[i];
+//                    hil[i] = hil[i + 1];
+//                    hil[i+1] = temp;
+//                    per = false;
+//                }
+//            }
+//        }
+//        System.out.println(Arrays.toString(hil));
+
+
+
+
+//        int [] mass = new int[8];
+//            for (int i=0; i< mass.length; i++){
+//                mass[i] = (int) (Math.random()*8);
+//            }
+//        System.out.println("Не отсортированный массив " + Arrays.toString(mass));
+//
+//            int temp;
+//            boolean reserv = false;
+//
+//            while (!reserv) {
+//                reserv = true;
+//                for (int i = 0; i < mass.length - 1; i++) {
+//
+//                    if (mass[i] > mass[i + 1]) {
+//                        temp = mass[i];
+//                        mass[i] = mass[i + 1];
+//                        mass[i + 1] = temp;
+//                        reserv = false;
+//                    }
+//                }
+//            }
+//        System.out.println("Отсортированный массив " + Arrays.toString(mass));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }
