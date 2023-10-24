@@ -40,9 +40,10 @@ public class HomeWork6 {
     }
     // Задание 3
 
-    public static String f(String source, Object ...arg){
-            return format(source, arg);
+    public static String f(String source, Object ...arg)
+    { return format(source, arg);
         }
+
     //Задание со звездочкой 1
     public static boolean isPalindrome(String s){
         if(s.length()==1 || s.length() == 0)
@@ -62,7 +63,6 @@ public class HomeWork6 {
         boolean d = matcher.find();
         return d;
     }
-
 
 }
 
